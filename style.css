@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+
+label {
+  display: block;
+}
+
+input[type=text] {
+  width: calc(100% - 20px);
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+}
+
+#resultado {
+  font-size: 18px;
+}
