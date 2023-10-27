@@ -5,6 +5,7 @@
 }
 
 .container {
+  font-size: 1.5rem;
   font-family: sans-serif;
   display: flex;
   align-items: center;
