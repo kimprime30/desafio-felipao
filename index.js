@@ -1,9 +1,9 @@
 function classificarHeroi() {
-  // Obtém os dados do usuário
+  
   const nome = document.getElementById("nome").value;
   const xp = Number(document.getElementById("xp").value);
 
-  // Verifica o nível do herói
+  
   let nivel = "";
   if (xp < 1000) {
     nivel = "Ferro";
@@ -23,9 +23,10 @@ function classificarHeroi() {
     nivel = "Radiante";
   }
 
-  // Exibe o resultado
+ 
   document.getElementById(
     "resultado"
-  ).textContent = `O Herói ${nome} está no nível ${nivel}`;
+  ).innerHTML = `O Herói <span>${nome}</span> está no nível <span>${nivel}</span>`;
+
 
 }

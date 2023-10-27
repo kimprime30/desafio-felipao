@@ -4,26 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classificar Nível do Herói</title>
+  <title>Cidade do Deuses</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Classificar Nível do Herói</h1>
+    Cidade dos Deuses
   </header>
 
-  <body>
-    <form action="">
-      <label>Informe o nome do personagem</label>
-      <input id="nome" type="text">
-      <label>Informe a XP do personagem</label>
-      <input id="xp" type="text">
-      <input type="button" value="Classificar" onclick="classificarHeroi()">
+  <section class="container">
+    <h1>Bem-vindo à Cidade dos Deuses, onde cada jornada começa com um passo e cada herói é forjado pelo caminho que escolhe.
+    Enfrente desafios, evolua e alcance seu lugar no paraíso que aguarda aqueles que se mostram dignos.</h1>
+
+    <h2>Classificar o nível do herói</h2>
+    <form class="form" action="">
+      <section>
+        <div>
+          <label>Informe o nome do personagem</label>
+          <input id="nome" type="text">
+        </div>
+        <div>
+          <label>Informe a XP do personagem</label>
+          <input id="xp" type="text">
+        </div>
+      </section>
+      <input class="button" type="button" value="Classificar" onclick="classificarHeroi()">
     </form>
-  </body>
-  <p id="resultado"></p>
-  <footer></footer>
+    <p id="resultado"></p>
+  </section>
+  
+  <footer class="copyright">
+    &copy; Kimprime 2023
+  </footer>
 
   <script src="index.js"></script>
 </body>
